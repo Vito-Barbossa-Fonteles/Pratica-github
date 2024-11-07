@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Produtos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-around flex-wrap">
+        <div class="card">
+            <img src="arroz.jfif">
+            <div class="card-body">
+                <h5 class="card-title">Produto 1</h5>
+                <p class="card-text">arroz.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="feijao.jfif">
+            <div class="card-body">
+                <h5 class="card-title">Produto 2</h5>
+                <p class="card-text">feiajo.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="macarrao.jfif">
+            <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">macarrao.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
