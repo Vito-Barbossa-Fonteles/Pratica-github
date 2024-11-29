@@ -1,0 +1,91 @@
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #25282E;
+    color: #FFF;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+
+#navbar {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a {
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover {
+    color: #C18696;
+}
+
+.main-image {
+    height: 400px;
+    background-image: url('../img/g_1.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info {
+    background-color: #FFF;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+
+#img2 {
+    background-image: url('../img/g_2.jpg');
+}
+
+#img3 {
+    background-image: url('../img/g_3.jpg');
+}
+
+#img4 {
+    background-image: url('../img/g_4.jpg');
+}
+
+#img5 {
+    background-image: url('../img/g_5.jpg');
+}
+
+#img6 {
+    background-image: url('../img/g_6.jpg');
+}
+
+#galary-container h1 {
+    text-align: center;
+}
+
+#galary-container h1,
+#galary-container .col-md-6,
+#galary-container .col-12 {
+    margin-bottom: 50px;
+}
+
+
+footer {
+    border-top: 1px solid #CCC;
+    height: 250px;
+    padding: 30px;
+}
+
+.small-image-container {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
