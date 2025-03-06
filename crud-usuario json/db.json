@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "id": "4f71",
+      "nome": "vitor babrosa",
+      "dataNascimento": "1111-11-01",
+      "email": "vitor.barbosa.fonteles60@gmail.com",
+      "cpf": "60785628355",
+      "fone": "88992880347",
+      "rua": "rua da igreja s.franciso",
+      "cep": "62300000",
+      "bairro": "asdasd",
+      "numero": "155",
+      "cidade": "Tiangua",
+      "estado": "ceara"
+    }
+  ]
+}
